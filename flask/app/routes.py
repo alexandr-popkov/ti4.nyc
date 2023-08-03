@@ -25,6 +25,7 @@ from app.filters import (
 
 @app.route("/")
 @app.route("/index")
+@app.route("/example")
 def index():
     return render_template("index.html", title="TI4.NYC")
 
